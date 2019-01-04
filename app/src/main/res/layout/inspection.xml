@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.InspectionActivity"
+    android:background="#fff"
+    >
+
+    <hangtian.com.guanlangmaster.utils.NoScrollViewPaper
+        android:id="@+id/homeContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/colorPrimary" />
+
+    <com.chaychan.library.BottomBarLayout
+        android:id="@+id/homeBottomBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.chaychan.library.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:iconNormal="@drawable/eye_close"
+            app:iconSelected="@drawable/eye_open"
+            app:itemMarginTop="0dp"
+            app:itemText="@string/inspection_plan"
+            app:itemTextSize="10sp"
+            app:textColorSelected="#000"
+
+           />
+
+        <com.chaychan.library.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:iconNormal="@drawable/eye_close"
+            app:iconSelected="@drawable/eye_open"
+            app:itemMarginTop="5dp"
+            app:itemText="@string/inspection_mission"
+            app:itemTextSize="10sp"
+            app:textColorNormal="#000"
+            app:textColorSelected="@color/color_home_bottom_selected" />
+        <com.chaychan.library.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:iconNormal="@drawable/eye_close"
+            app:iconSelected="@drawable/eye_open"
+            app:itemMarginTop="0dp"
+            app:itemText="@string/setting"
+            app:itemTextSize="10sp"
+            app:textColorSelected="@color/color_home_bottom_selected"
+            />
+    </com.chaychan.library.BottomBarLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="transparent_half">#a0000000</color>
+    <color name="transparent_half_orange">#a0ec6f1a</color>
+
+    <!--底部导航栏上方阴影的颜色-->
+    <color name="color_home_bottom_tab_top">#8ec4cf</color>
+
+    <!--底部导航栏字体颜色-->
+    <color name="color_home_bottom_normal">#57afff</color>
+    <color name="color_home_bottom_selected">#57afff</color>
+
+</resources>

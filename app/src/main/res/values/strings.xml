@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">管廊宝</string>
+    <string name="please_login">请登录</string>
+    <string name="back">返回</string>
+    <string name="login">登录</string>
+    <string name="sure">确定</string>
+    <string name="exit">退出</string>
+    <string name="account_number">账号</string>
+    <string name="account_number_hint">请输入您的账号</string>
+    <string name="password">密码</string>
+    <string name="password_hint">请输入您的密码</string>
+    <string name="remember_password">记住密码</string>
+    <string name="inspection_plan">巡检计划</string>
+    <string name="inspection_mission">巡检任务</string>
+    <string name="repair_mission">维修任务</string>
+    <string name="repair_plan">维修计划</string>
+    <string name="setting">配置</string>
+    <string name="loading">正在登录...</string>
+    <string name="spinner">基础下拉框</string>
+    <string name="search_view">在这儿输入搜索内容...</string>
+    <string name="basic_setting">基本设置</string>
+    <string name="ip_address">IP地址</string>
+    <string name="port_number">端口号</string>
+    <string name="logout">退出当前账号</string>
+    <string name="commit">提交</string>
+</resources>
